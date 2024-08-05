@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+width: 100%;
+
+}
+body{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    /* scroll-behavior: smooth; */
+  
+  }
+  *{
+    scroll-behavior: smooth !important;
+  }
+  *{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    -webkit-scrollbar{
+      display: none;
+
+    }
+  
+  }
+
+  .heading-font {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+  } 
+
+  
